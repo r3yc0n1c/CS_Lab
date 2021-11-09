@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+// Check whether a number is +ve, -ve or zero using nested if
+
+int main(){
+    int n;
+    printf("Enter a number: ");
+    scanf("%d", &n);
+
+    if(n>=0)
+        if(n==0)
+            printf("zero\n");
+        else
+            printf("+ve\n");
+    else
+        printf("-ve\n");
+    return 0;
+}
